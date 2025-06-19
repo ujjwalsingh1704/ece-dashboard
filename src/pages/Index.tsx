@@ -91,17 +91,9 @@ const Index = () => {
         </div>
       </nav>
 
-      {/* Hero Section with Background Image */}
-      <section className="py-16 px-4 relative overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <img 
-            src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" 
-            alt="Sustainable forest background"
-            className="w-full h-full object-cover opacity-20"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-background/80 to-background/60"></div>
-        </div>
-        <div className="container mx-auto text-center relative z-10">
+      {/* Hero Section */}
+      <section className="py-16 px-4">
+        <div className="container mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-[#8B4B5C] to-[#6B3A4A] bg-clip-text text-transparent">
             ESG Performance Dashboard
           </h1>
@@ -158,53 +150,10 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Analytics Overview with Images */}
+      {/* Analytics Overview */}
       <section id="analytics" className="py-16 px-4">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center">Analytics Overview</h2>
-          
-          {/* Featured Analytics with Images */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
-              <div className="relative h-48">
-                <img 
-                  src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="Data Analytics"
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                <div className="absolute bottom-4 left-4 text-white">
-                  <h3 className="text-xl font-bold">Real-time Monitoring</h3>
-                  <p className="text-sm opacity-90">Advanced analytics dashboard</p>
-                </div>
-              </div>
-              <CardContent className="p-6">
-                <div className="text-2xl font-bold text-[#8B4B5C] mb-2">24/7</div>
-                <p className="text-muted-foreground">Continuous monitoring and alerts</p>
-              </CardContent>
-            </Card>
-
-            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
-              <div className="relative h-48">
-                <img 
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="Sustainability Report"
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                <div className="absolute bottom-4 left-4 text-white">
-                  <h3 className="text-xl font-bold">Impact Reports</h3>
-                  <p className="text-sm opacity-90">Comprehensive ESG reporting</p>
-                </div>
-              </div>
-              <CardContent className="p-6">
-                <div className="text-2xl font-bold text-[#8B4B5C] mb-2">150+</div>
-                <p className="text-muted-foreground">Detailed sustainability reports</p>
-              </CardContent>
-            </Card>
-          </div>
-
-          {/* Stats Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
